@@ -1,0 +1,35 @@
+variable,label,role_in_study,domain,type,valid_values_or_range,missing_codes,n_valid,n_not_administered,n_omitted
+CNTRY,Country code (KAZ = Kazakhstan),identifier,,identifier/design,KAZ,none,7360,0,0
+IDCNTRY,Numeric country identifier,identifier,,identifier/design,398,none,7360,0,0
+IDSCHOOL,Anonymised school identifier,identifier,,identifier/design,377 distinct values,none,7360,0,0
+IDTEACH,Anonymised teacher identifier,identifier,,identifier/design,7360 distinct values,none,7360,0,0
+IDTQUEST,"Teacher questionnaire form (rotated design: 1, 2, 3)",design variable,,identifier/design,"1, 2, 3",none,7360,0,0
+T4DRTWCI,Digital tools for whole-class instruction,"competence indicator (clustering, predictor)",Digital practice,continuous IRT scale score,5.140 to 14.318,9998 = not administered; 9999 = omitted/invalid,4878,2455,27
+T4DRTIIA,Digital tools for individualised instruction and assessment,"competence indicator (clustering, predictor)",Digital practice,continuous IRT scale score,5.700 to 14.081,9998 = not administered; 9999 = omitted/invalid,4877,2455,28
+T4SECLS,Self-efficacy in classroom management,"competence indicator (clustering, predictor)",Self-efficacy,continuous IRT scale score,5.176 to 15.373,9998 = not administered; 9999 = omitted/invalid,7331,0,29
+T4SEINS,Self-efficacy in instruction,"competence indicator (clustering, predictor)",Self-efficacy,continuous IRT scale score,4.916 to 15.589,9998 = not administered; 9999 = omitted/invalid,7327,0,33
+T4SEENG,Self-efficacy in student engagement,"competence indicator (clustering, predictor)",Self-efficacy,continuous IRT scale score,4.837 to 14.963,9998 = not administered; 9999 = omitted/invalid,7337,0,23
+T4CLAIN,Clarity of instruction,"competence indicator (clustering, predictor)",Instructional practice,continuous IRT scale score,5.402 to 15.569,9998 = not administered; 9999 = omitted/invalid,4882,2455,23
+T4COGAC,Cognitive activation,"competence indicator (clustering, predictor)",Instructional practice,continuous IRT scale score,4.656 to 14.888,9998 = not administered; 9999 = omitted/invalid,4879,2455,26
+T4CLASM,Classroom-management practice,"competence indicator (clustering, predictor)",Instructional practice,continuous IRT scale score,5.919 to 14.174,9998 = not administered; 9999 = omitted/invalid,4880,2455,25
+T4ADLE,Adaptive learning,"competence indicator (clustering, predictor)",Instructional practice,continuous IRT scale score,5.066 to 15.524,9998 = not administered; 9999 = omitted/invalid,4881,2455,24
+T4PBLE,Progression-based learning,"competence indicator (clustering, predictor)",Instructional practice,continuous IRT scale score,5.395 to 15.241,9998 = not administered; 9999 = omitted/invalid,4882,2455,23
+T4FULFIL,Fulfilment of lesson aims,"competence indicator (clustering, predictor)",Instructional practice,continuous IRT scale score,4.926 to 15.578,9998 = not administered; 9999 = omitted/invalid,7327,0,33
+T4EXINF,Exchange of information and ideas,"competence indicator (clustering, predictor)",Collaboration and autonomy,continuous IRT scale score,5.889 to 14.517,9998 = not administered; 9999 = omitted/invalid,7334,0,26
+T4COLES,Professional collaboration in lessons,"competence indicator (clustering, predictor)",Collaboration and autonomy,continuous IRT scale score,4.716 to 14.661,9998 = not administered; 9999 = omitted/invalid,7338,0,22
+T4AUTCH,Instructional autonomy,"competence indicator (clustering, predictor)",Collaboration and autonomy,continuous IRT scale score,5.609 to 15.172,9998 = not administered; 9999 = omitted/invalid,4878,2455,27
+T4WELS,Workplace well-being and stress,"competence indicator (clustering, predictor)",Well-being and stress,continuous IRT scale score,5.778 to 13.650,9998 = not administered; 9999 = omitted/invalid,7314,0,46
+T4WLOADT,Workload-related stress,"competence indicator (clustering, predictor)",Well-being and stress,continuous IRT scale score,5.877 to 13.893,9998 = not administered; 9999 = omitted/invalid,4883,2445,32
+T4STBEH,Student-behaviour-related stress,"competence indicator (clustering, predictor)",Well-being and stress,continuous IRT scale score,5.722 to 13.342,9998 = not administered; 9999 = omitted/invalid,4877,2445,38
+T4JOBSAT,Overall job satisfaction,"competence indicator (clustering, predictor)",Job satisfaction,continuous IRT scale score,3.951 to 13.533,9998 = not administered; 9999 = omitted/invalid,7304,0,56
+T4JOYTCH,Joy of teaching,"competence indicator (clustering, predictor)",Job satisfaction,continuous IRT scale score,6.379 to 16.314,9998 = not administered; 9999 = omitted/invalid,4886,2445,29
+T4PDGENP,PD need: general pedagogy (median split = supervised target),target,,continuous IRT scale score,6.249 to 13.981,9998 = not administered; 9999 = omitted/invalid,4882,2455,23
+T4PDSUBMP,PD need: subject matter and pedagogy (excluded from predictors),excluded sibling scale,,continuous IRT scale score,6.521 to 13.488,9998 = not administered; 9999 = omitted/invalid,4882,2455,23
+T4PDIV,PD need: diversity and inclusion (excluded from predictors),excluded sibling scale,,continuous IRT scale score,6.210 to 13.868,9998 = not administered; 9999 = omitted/invalid,4876,2455,29
+T4TAGEGR,Age group,"background (predictor, external validation)",,categorical code,"1, 2, 3, 4, 5",8 = not administered; 9 = omitted/invalid,7353,0,7
+T4THEDAT,Highest education level,"background (predictor, external validation)",,categorical code,"1, 2, 3, 4, 5",8 = not administered; 9 = omitted/invalid,4909,2445,6
+T4TYQUAL,Qualification route,"background (predictor, external validation)",,categorical code,"4, 5, 6, 7, 8, 9",98 = not administered; 99 = omitted/invalid,4589,2445,326
+T4TYEXPE,Total teaching experience (grouped),"background (predictor, external validation)",,categorical code,"1, 2, 3, 4",8 = not administered; 9 = omitted/invalid,7115,0,245
+T4TNSCH,Years at the current school (grouped),"background (predictor, external validation)",,categorical code,"0, 1, 2",8 = not administered; 9 = omitted/invalid,7315,0,45
+T4TCSIZE,Target class size (grouped),"background (predictor, external validation)",,categorical code,"1, 2, 3, 4",8 = not administered; 9 = omitted/invalid,4865,2455,40
+TCHWGT,Final teacher sampling weight,weight (weighted descriptives only),,continuous weight,0.208 to 119.132,none,7360,0,0

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the article and the OECD TALIS 2024 Database."
+title: "Minimal dataset and code: Person-Centred Modelling of Teacher Professional Competence with Explainable Machine Learning"
+type: dataset
+authors:
+  - family-names: Baizhanov
+    given-names: Nurseit
+    affiliation: "National Testing Center, Astana, Kazakhstan"
+  - family-names: Sharimbayev
+    given-names: Batyr
+    affiliation: "SDU University, Kaskelen, Kazakhstan"
+    email: batyr.sharimbayev@sdu.edu.kz
+  - family-names: Shinetova
+    given-names: Lyazzat
+    affiliation: "National Testing Center, Astana, Kazakhstan"
+  - family-names: Khamitova
+    given-names: Kamshat
+    affiliation: "National Testing Center, Astana, Kazakhstan"
+  - family-names: Kazin
+    given-names: Aiken
+    affiliation: "SDU University, Kaskelen, Kazakhstan"
+  - family-names: Akhmetov
+    given-names: Adil
+    affiliation: "SDU University, Kaskelen, Kazakhstan"
+license: MIT
+keywords:
+  - TALIS 2024
+  - teacher competence
+  - clustering
+  - explainable machine learning
+  - SHAP
+references:
+  - type: data
+    title: "TALIS 2024 Database"
+    authors:
+      - name: OECD
+    year: 2025
+    url: "https://www.oecd.org/en/data/datasets/talis-2024-database.html"
